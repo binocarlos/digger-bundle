@@ -1,0 +1,42 @@
+{
+  "name": "digger-bundle",
+  "version": "0.0.1",
+  "description": "A full featured digger-container with find, XML, contracts and radio",
+  "main": "src/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "make test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/binocarlos/digger-bundle.git"
+  },
+  "keywords": [
+    "digger",
+    "client",
+    "xml",
+    "radio"
+  ],
+  "author": "Kai Davenport",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/binocarlos/digger-bundle/issues"
+  },
+  "devDependencies": {
+    "mocha": "~1.14.0",
+    "mocha-phantomjs": "~3.1.6",
+    "browserify": "*",
+    "should": "~2.1.0"
+  },
+  "dependencies": {
+    "digger-contracts": "*",    
+    "digger-selector": "*",
+    "digger-utils": "*",
+    "digger-container": "*",
+    "digger-find": "*",
+    "digger-xml":"*",
+    "digger-radio":"*"
+  }
+}
