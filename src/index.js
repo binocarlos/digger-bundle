@@ -42,7 +42,7 @@ augment_prototype({
 	radio:function(){
 		var radio = new Radio(this);
 		if(this.supplychain){
-			radio.bridge(this.supplychain);
+			radio.connect(this.supplychain);
 		}
 		return radio;
 	}
