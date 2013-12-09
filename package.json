@@ -1,6 +1,6 @@
 {
   "name": "digger-bundle",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A full featured digger-container with find, XML, contracts and radio",
   "main": "src/index.js",
   "directories": {
