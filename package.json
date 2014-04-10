@@ -27,16 +27,16 @@
   "devDependencies": {
     "mocha": "~1.14.0",
     "mocha-phantomjs": "~3.1.6",
-    "browserify": "*",
+    "browserify": "~2.36.1",
     "should": "~2.1.0"
   },
   "dependencies": {
-    "digger-contracts": "*",
-    "digger-selector": "*",
-    "digger-utils": "*",
-    "digger-container": "*",
-    "digger-find": "*",
-    "digger-xml": "*",
-    "digger-radio": "*"
+    "digger-contracts": "~0.1.7",
+    "digger-selector": "~0.1.1",
+    "digger-utils": "~1.2.3",
+    "digger-container": "~0.3.2",
+    "digger-find": "~0.1.5",
+    "digger-xml": "~0.2.3",
+    "digger-radio": "~0.1.3"
   }
 }

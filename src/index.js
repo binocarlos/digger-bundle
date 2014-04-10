@@ -19,6 +19,7 @@
 var Container = require('digger-container');
 var XML = require('digger-xml');
 var Radio = require('digger-radio');
+var util = require('util');
 
 module.exports = Container;
 
